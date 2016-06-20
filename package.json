@@ -1,0 +1,31 @@
+{
+  "version": "0.0.0",
+  "name": "github-ace-light",
+  "description": "Ace theme for GitHub light syntax",
+  "homepage": "https://github.com/primer/github-ace-light#readme",
+  "author": "GitHub Inc.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primer/github-ace-light.git"
+  },
+  "bugs": {
+    "url": "https://github.com/primer/github-syntax-theme-generator/issues"
+  },
+  "scripts": {
+    "update": "cp node_modules/github-syntax-theme-generator/build/ace/github-light.css .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "syntax",
+    "css",
+    "theme",
+    "highlight",
+    "code",
+    "ace"
+  ],
+  "devDependencies": {
+    "github-syntax-theme-generator": "^0.1.0"
+  }
+}
